@@ -1,0 +1,23 @@
+a = (10,5,4,20,1,15,12)
+x = sorted(a)
+print(x)
+# # # # #
+square_dict = dict()
+for num in range(1, 11):
+    square_dict[num] = num*num
+print(square_dict)
+# # # # # # # # # # #
+def rev_words(string):
+ words = string.split(' ')
+ rev = ' '.join(reversed(words))
+ return rev
+s= "Python is good"
+print ("reverse: ",rev_words(s))
+s2=( "Hello from Study tonight")
+print ("reverse: ",rev_words(s2))
+# # # # # # # # # # #
+list1 = [10, 21, 4, 45, 66, 93]
+for num in list1:
+    if num % 2 == 0:
+        print(num, end=" ")
+# # # # # # # # # # # # #
